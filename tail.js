@@ -1,3 +1,4 @@
+/*
 const assertEqual = function(actual, expected) {
   if (actual === expected) {
     console.log(`✅✅✅ Assertion Passed: ${actual} === ${expected}`);
@@ -31,3 +32,8 @@ const empty = tail([]);
 assertEqual(empty.length, 0);
 
 
+*/
+
+console.log(friend);
+var friend = 'E.T.';
+console.log(friend);
