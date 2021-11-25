@@ -13,3 +13,4 @@ assertEqual("Bootcamp Day 1", "Bootcamp Day 1");
 assertEqual("LIGHTHOUSE", "lighthouse");
 assertEqual(12345678, 12345678);
 assertEqual(9877654321, 987654321);
+assertEqual([1,2,3], [1,2,3])
