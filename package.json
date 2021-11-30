@@ -1,7 +1,7 @@
 {
-  "name": "lotide",
+  "name": "@josuevalo/lotide",
   "version": "1.0.0",
-  "description": "",
+  "description": "lotide porject for LHL week 1 & 2",
   "main": "assertArraysEqual.js",
   "directories": {
     "test": "test"
@@ -13,7 +13,10 @@
     "type": "git",
     "url": "git+https://github.com/josuevalo/lotide.git"
   },
-  "author": "",
+  "author": {
+    "name": "Josue Arevalo",
+    "email": "arevalo.josued@gmail.com"
+  },
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/josuevalo/lotide/issues"
