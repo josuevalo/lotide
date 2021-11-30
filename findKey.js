@@ -34,3 +34,6 @@ assertEqual(findKey({
   "Ora":       { stars: 2 },
   "Akelarre":  { stars: 3 }
 }, x => x.stars === 2), "noma");
+
+
+module.exports = findKey;

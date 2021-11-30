@@ -43,3 +43,5 @@ const assertArraysEqual = function(actual, expected) {
 
 assertArraysEqual(takeUntil([1,2,3,4,5,6], x => x < 6), [1, 2, 3, 4, 5, 6]);
 assertArraysEqual(takeUntil(["Hello", "My Name is","Ricardo", "and"], x => x === "and"), ["Hello", "My Name is","Ricardo"]);
+
+module.exports = takeUntil;

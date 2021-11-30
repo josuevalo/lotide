@@ -37,3 +37,6 @@ const assertArraysEqual = function(actual, expected) {
 assertArraysEqual(map([1,2,3,4,5,6], x => x * 2), [2, 4, 6, 8, 10, 12]);
 assertArraysEqual(map([1,2,3,4,5,6], x => x - 1), [0, 1, 2, 3, 4, 5]);
 assertArraysEqual(map(["hello","goodbye","nice", "to", "meet", "you"], x => x.toUpperCase()), ["HELLO", "GOODBYE", "NICE", "TO", "MEET", "YOU"]);
+
+
+module.exports = map;
